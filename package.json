@@ -1,0 +1,35 @@
+{
+  "name": "sixtyfour",
+  "version": "0.0.0",
+  "description": "Base64 utilities",
+  "keywords": ["base64", "base64url", "rfc4648"],
+  "homepage": "https://github.com/novemberborn/sixtyfour",
+  "bugs": {
+    "url": "https://github.com/novemberborn/sixtyfour/issues"
+  },
+  "author": {
+    "name": "Mark Wubben",
+    "url": "http://novemberborn.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/novemberborn/sixtyfour.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.4",
+    "mocha-as-promised": "~1.4.0",
+    "chai-as-promised": "~4.0.0",
+    "glob": "~3.2.6",
+    "mocha": "~1.13.0",
+    "chai": "~1.8.1",
+    "sinon": "~1.7.3"
+  },
+  "scripts": {
+    "test": "test/runner.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "engineStrict": true
+}
