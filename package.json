@@ -11,6 +11,7 @@
     "name": "Mark Wubben",
     "url": "http://novemberborn.net"
   },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/novemberborn/sixtyfour.git"
