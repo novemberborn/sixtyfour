@@ -1,8 +1,12 @@
 {
   "name": "sixtyfour",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Base64 utilities",
-  "keywords": ["base64", "base64url", "rfc4648"],
+  "keywords": [
+    "base64",
+    "base64url",
+    "rfc4648"
+  ],
   "homepage": "https://github.com/novemberborn/sixtyfour",
   "bugs": {
     "url": "https://github.com/novemberborn/sixtyfour/issues"
