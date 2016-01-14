@@ -22,13 +22,13 @@
   },
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.6.4",
-    "mocha-as-promised": "~1.4.0",
-    "chai-as-promised": "~4.0.0",
-    "glob": "~3.2.6",
-    "mocha": "~1.13.0",
-    "chai": "~1.8.1",
-    "sinon": "~1.7.3"
+    "grunt-contrib-jshint": "~0.11.3",
+    "mocha-as-promised": "~2.0.0",
+    "chai-as-promised": "~5.2.0",
+    "glob": "~6.0.4",
+    "mocha": "~2.3.4",
+    "chai": "~3.4.1",
+    "sinon": "~1.17.2"
   },
   "scripts": {
     "test": "test/runner.js"
