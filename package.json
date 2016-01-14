@@ -21,16 +21,11 @@
     "url": "https://github.com/novemberborn/sixtyfour.git"
   },
   "devDependencies": {
-    "chai": "~1.8.1",
-    "chai-as-promised": "~4.0.0",
-    "glob": "~3.2.6",
-    "mocha": "~1.13.0",
-    "mocha-as-promised": "~1.4.0",
-    "sinon": "~1.7.3",
+    "ava": "^0.9.1",
     "standard": "^5.4.1"
   },
   "scripts": {
-    "test": "test/runner.js",
+    "test": "ava",
     "posttest": "standard"
   },
   "engines": {
