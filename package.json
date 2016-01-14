@@ -30,9 +30,5 @@
     "coverage": "nyc npm test",
     "test": "ava",
     "posttest": "standard"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "engineStrict": true
+  }
 }
