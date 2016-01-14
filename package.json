@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Base64 utilities",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "coverage": "nyc npm test",
     "test": "ava",
