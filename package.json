@@ -13,7 +13,7 @@
     "url": "git+https://github.com/novemberborn/sixtyfour.git"
   },
   "author": "Mark Wubben (https://novemberborn.net/)",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/novemberborn/sixtyfour/issues"
   },
