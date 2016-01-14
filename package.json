@@ -2,33 +2,30 @@
   "name": "sixtyfour",
   "version": "1.0.0",
   "description": "Base64 utilities",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "nyc npm test",
+    "test": "ava",
+    "posttest": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novemberborn/sixtyfour.git"
+  },
+  "author": "Mark Wubben (https://novemberborn.net/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/novemberborn/sixtyfour/issues"
+  },
+  "homepage": "https://github.com/novemberborn/sixtyfour",
   "keywords": [
     "base64",
     "base64url",
     "rfc4648"
   ],
-  "main": "index.js",
-  "homepage": "https://github.com/novemberborn/sixtyfour",
-  "bugs": {
-    "url": "https://github.com/novemberborn/sixtyfour/issues"
-  },
-  "author": {
-    "name": "Mark Wubben",
-    "url": "http://novemberborn.net"
-  },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/novemberborn/sixtyfour.git"
-  },
   "devDependencies": {
     "ava": "^0.9.1",
     "nyc": "^5.3.0",
     "standard": "^5.4.1"
-  },
-  "scripts": {
-    "coverage": "nyc npm test",
-    "test": "ava",
-    "posttest": "standard"
   }
 }
