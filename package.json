@@ -27,7 +27,7 @@
     "rfc4648"
   ],
   "devDependencies": {
-    "ava": "^0.12.0",
+    "ava": "^0.13.0",
     "nyc": "^6.0.0",
     "standard": "^6.0.4"
   }
