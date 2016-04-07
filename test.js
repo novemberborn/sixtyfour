@@ -24,7 +24,7 @@ test('encode(utf8OrBuffer) encodes buffers', t => {
 })
 
 test('decodeAsBuffer(base64) decodes into a buffer', t => {
-  t.ok(Buffer.isBuffer(decodeAsBuffer('Zm9v')))
+  t.truthy(Buffer.isBuffer(decodeAsBuffer('Zm9v')))
 })
 
 test('decodeAsBuffer(base64) buffer holds expected value', t => {
@@ -48,7 +48,7 @@ test('encodeJson(json, replacer, space) uses the `space` argument', t => {
 })
 
 test('decodeJson(base64) parses a decoded JSON-stringified value', t => {
-  t.same(decodeJson('ewogICJmb28iOiB0cnVlCn0='), { foo: true })
+  t.deepEqual(decodeJson('ewogICJmb28iOiB0cnVlCn0='), { foo: true })
 })
 
 test('urlify(base64, preservePadding) maps from the base64 alphabet to the base64url one', t => {
@@ -90,7 +90,7 @@ test('urlencode(utf8OrBuffer, includePadding) includes padding for buffers', t =
 })
 
 test('urldecodeAsBuffer(base64) decodes into a buffer', t => {
-  t.ok(Buffer.isBuffer(urldecodeAsBuffer('4pe-4pe_Lg')))
+  t.truthy(Buffer.isBuffer(urldecodeAsBuffer('4pe-4pe_Lg')))
 })
 
 test('urldecodeAsBuffer(base64) buffer holds expected value', t => {
@@ -120,5 +120,5 @@ test('urlencodeJson(json, replacer, space, includePadding) includes padding', t 
 })
 
 test('urldecodeJson(base64) parses a decoded JSON-stringified value', t => {
-  t.same(urldecodeJson('ewogICIu4pe-4pe_IjogdHJ1ZQp9'), { '.◾◿': true })
+  t.deepEqual(urldecodeJson('ewogICIu4pe-4pe_IjogdHJ1ZQp9'), { '.◾◿': true })
 })
