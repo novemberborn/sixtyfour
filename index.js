@@ -32,7 +32,7 @@ exports.decodeJson = decodeJson
 function urlify (base64, preservePadding) {
   var base64url = base64.replace(/\+/g, '-').replace(/\//g, '_')
   if (!preservePadding) {
-    base64url = base64url.replace(/\=+$/, '')
+    base64url = base64url.replace(/=+$/, '')
   }
   return base64url
 }
