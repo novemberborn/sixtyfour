@@ -27,7 +27,7 @@
     "rfc4648"
   ],
   "devDependencies": {
-    "@novemberborn/as-i-preach": "^5.0.0",
+    "@novemberborn/as-i-preach": "^6.1.0",
     "ava": "^0.16.0",
     "nyc": "^8.3.0"
   },
