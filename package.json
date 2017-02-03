@@ -34,7 +34,8 @@
   },
   "greenkeeper": {
     "ignore": [
-      "@novemberborn/as-i-preach"
+      "@novemberborn/as-i-preach",
+      "ava"
     ]
   }
 }
